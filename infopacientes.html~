@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="es" />
+<meta name="LANGUAGE" content="es" />
+<meta name="DISTRIBUTION" content="Global" />
+</head>
+<title> Info pacientes </title>
+</head>
+
+<body>
+
+<h3> Estudios disponibles: </h3>
+<hr />
+<ul>
+<li>Obstétrica</li>
+<li>TN (translucencia nucal) (13 semanas de gestación)</li>
+<li>Scan fetal ( 20 semanas )</li>
+<li>Ecografía obstétrica 3D- 4D ( entre las 24 y 29 semanas de gestación)</li>
+<li>Doppler fetal</h3>
+<li>Ecografía ginecológica</h3>
+<li>Ecografia ginelogica transvaginal</h3>
+<li>Doppler ginecologico</h3>
+<li>Ecografia mamaria bilateral</h3>
+<li>Dopper mamario</h3>
+<li>Ecografia abdominal completa</h3>
+<li>Doppler abdominal</h3>
+<li>Ecografia hepatobiliar</h3>
+<li>Ecografia tiroidea</h3>
+<li>Doppler tiroideo</h3>
+<li>Ecografía de caderas</h3>
+<li>Ecografía oftalmológica</h3>
+<li>Ecografía transfontanelar</h3>
+<li>Ecografía testicular</h3>
+<li>Doppler testicular</h3>
+<li>Ecografía renal</h3>
+<li>Doppler renal</h3>
+<li>Ecografía vesical o vías urinarias</h3>
+<li>Doppler de arterias renales</h3>
+<li>Ecografía de partes blandas</h3>
+<li>Ecografía prostática</h3>
+<li>Ecografía prostática / transrectal</h3>
+<li>Ecografía transrectal</h3>
+<li>Ecografia inginal</h3>
+<li>Ecografía de parel abdominal</h3>
+<li>Ecografía de rodilla</h3>
+<li>Ecografía de muslo</h3>
+<li>Ecografía de mano</h3>
+<li>Ecografía de brazo</h3>
+<li>Ecografía de pie</h3>
+<li>Ecografía de cuello</h3>
+<li>Doppler de vasos de cuello</h3>
+<li>Doppler de miebros superiores</h3>
+<li>Doppler de miemrbos inferiores arterial</h3>
+<li>Doppler de miembros inferioes venoso</h3>
+<li>Ecocardiografía 2D</h3>
+<li>Ecocargiografia Doppler Color</h3>
+<li>Ecocardiografía 3D </h3>
+</ul>
+
+</body>
+
+
+
+</html>

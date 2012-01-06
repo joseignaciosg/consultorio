@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="es" />
+<meta name="LANGUAGE" content="es" />
+<meta name="DISTRIBUTION" content="Global" />
+<style type="text/css">
+
+.gallerycontainer{
+position: relative;
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+
+.thumbnail img{
+border: 1px solid white;
+margin: 0 5px 5px 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+}
+
+.thumbnail:hover img{
+border: 1px solid blue;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: lightyellow;
+padding: 5px;
+left: -1000px;
+border: 1px dashed gray;
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image*/
+visibility: visible;
+top: 100px	;
+left: 0px; /*position where enlarged image should offset horizontally */
+z-index: 50;
+}
+</style>
+
+ <title> Miller Dieker Imágenes </title></head>
+<body>
+
+<div class="gallerycontainer">
+
+<a class="thumbnail" href="#thumb"><img src="md1.png"  width="100px" height="66px" border="0" /><span><img src="md1.png" alt="md1" width="500" height="370"/><br />Simply beautiful.</span></a>
+
+<a class="thumbnail" href="#thumb"><img src="md2.png"  width="100px" height="66px" border="0" /><span><img src="md2.png" alt="md2" width="500" height="370" /><br />So real, it's unreal. Or is it?</span></a>
+
+<a class="thumbnail" href="#thumb"><img src="md3.png" alt="md3" width="100px" height="75px" border="0" /><span><img src="md3.png" alt="md3" width="500" height="370" /><br />Sushi for dinner anyone?</span></a> 
+
+<a class="thumbnail" href="#thumb"><img src="md4.png" width="100px" height="70px" border="0" /><span><img src="md4.png" width="500" height="370"/><br />Run wild with horses.</span></a>
+
+<a class="thumbnail" href="#thumb"><img src="md5.png" alt="md3" width="100px" height="75px" border="0" /><span><img src="md5.png" alt="md5" width="500" height="370" /><br />Dynamic Drive</span></a>
+
+<a class="thumbnail" href="#thumb"><img src="md6.png" alt="md3" width="100px" height="75px" border="0" /><span><img src="md5.png" alt="md5" width="500" height="370"/><br />Zoka Coffee</span></a>
+
+<a class="thumbnail" href="#thumb"><img src="md7.png" width="100px" height="70px" border="0" /><span><img src="md7.png" width="500" height="370" /><br />Run wild with horses.</span></a>
+
+<a class="thumbnail" href="#thumb"><img src="md8.png" alt="md8" width="100px" height="75px" border="0" /><span><img src="md8.png" alt="md5" width="500" height="370"/><br />Dynamic Drive</span></a>
+
+<a class="thumbnail" href="#thumb"><img src="md9.png" alt="md9" width="100px" height="75px" border="0" /><span><img src="md9.png" alt="md5" width="500" height="370"/><br />Zoka Coffee</span></a>
+
+<a class="thumbnail" href="#thumb"><img src="md10.png" width="100px" height="70px" border="0" /><span><img src="md10.png" width="500" height="370"/><br />Run wild with horses.</span></a>
+
+<a class="thumbnail" href="#thumb"><img src="md11.png" alt="md3" width="100px" height="75px" border="0" /><span><img src="md11.png" alt="md5"width="500" height="370" /><br />Dynamic Drive</span></a>
+
+<a class="thumbnail" href="#thumb"><img src="md12.png" alt="md3" width="100px" height="75px" border="0" /><span><img src="md12.png" alt="md5" width="500" height="370"/><br />Zoka Coffee</span></a>
+
+<a class="thumbnail" href="#thumb"><img src="md13.png" width="100px" height="70px" border="0" /><span><img src="md13.png" width="500" height="370"/><br />Run wild with horses.</span></a>
+
+<a class="thumbnail" href="#thumb"><img src="md14.png" alt="md14" width="100px" height="75px" border="0" /><span><img src="md14.png" alt="md5"width="500" height="370" /><br />Dynamic Drive</span></a>
+
+<a class="thumbnail" href="#thumb"><img src="md15.png" alt="md15" width="100px" height="75px" border="0" /><span><img src="md15.png" alt="md5" width="500" height="370"/><br />Zoka Coffee</span></a>
+
+<a class="thumbnail" href="#thumb"><img src="md16.png" alt="md16" width="100px" height="75px" border="0" /><span><img src="md16.png" alt="md5"width="500" height="370" /><br />Dynamic Drive</span></a>
+
+<a class="thumbnail" href="#thumb"><img src="md17.png" alt="md17" width="100px" height="75px" border="0" /><span><img src="md17.png" alt="md5" width="500" height="370"/><br />Zoka Coffee</span></a>
+
+<br />
+</div>
+
+<!--
+
+<img src="md1.png" alt="md1" >
+<hr />
+<img src="md2.png" alt="md2" >
+<hr />
+<img src="md3.png" alt="md3" >
+<hr />
+<img src="md4.png" alt="md4" >
+<hr />
+<img src="md5.png" alt="md5" >
+<hr />
+<img src="md6.png" alt="md6" >
+<hr />
+<img src="md7.png" alt="md7" >
+<hr />
+<img src="md8.png" alt="md8" >
+<hr />
+<img src="md9.png" alt="md9" >
+<hr />
+<img src="md10.png" alt="md10" >
+<hr />
+<img src="md11.png" alt="md11" >
+<hr />
+<img src="md12.png" alt="md12" >
+<hr />
+<img src="md13.png" alt="md13" >
+<hr />
+<img src="md14.png" alt="md14" >
+<hr />
+<img src="md15.png" alt="md15" >
+<hr />
+<img src="md16.png" alt="md16" >
+<hr />
+<img src="md17.png" alt="md17" >
+<hr />
+
+-->
+
+
+
+
+</body>
+</html>

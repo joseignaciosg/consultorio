@@ -1,0 +1,13 @@
+<html>
+<body>
+<?php
+	$nombre = $_POST["nombre"];
+	$apellido = $_POST["apellido"];
+	echo $nombre;
+	echo $apellido;
+	mail("doctorjosegalindo@gmail.com", "consulta", $nombre );
+	header( 'Location: frame_bindex.html');
+	
+?>
+</body>
+</html>

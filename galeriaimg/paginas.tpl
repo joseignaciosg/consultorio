@@ -1,0 +1,1 @@
+<a href="?pagina={numPagina}">{numPagina}</a>

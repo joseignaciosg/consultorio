@@ -1,0 +1,7 @@
+<html>
+
+<body>
+header( 'Location: /consultorio/index.html' ) ;
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+body {
+	
+background-color:	#C8C8C8 ;
+}
+
+h2 { 
+font-family:"Times New Roman", Times, serif;
+}
+
+p {
+color: white ;
+text-align:center;
+}
+

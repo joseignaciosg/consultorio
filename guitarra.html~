@@ -1,0 +1,19 @@
+<html>
+<head>
+<title> Guitarra!! </title>
+</head>
+<body>
+
+<!--
+<object width="600" height="600" classid="avi:22cD6F312-B0F6-11D0-94AB-0080C74C7E95">
+<param name="viola.avi" value="viola.avi"> 
+<param name="play" value="true">
+<param name="loop" value="true">
+<param name="quality" value="high">
+</object>
+-->
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/wuU-b2QrOoI?hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/wuU-b2QrOoI?hl=en&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
+
+</body>
+
+</html>

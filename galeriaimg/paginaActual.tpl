@@ -1,0 +1,1 @@
+<a href="?pagina={numPagina}"><span class="seleccionado">{numPagina}</span></a>

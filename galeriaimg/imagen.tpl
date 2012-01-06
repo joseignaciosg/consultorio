@@ -1,0 +1,1 @@
+<a href="javascript:popUp('popUp.php?imagen={imagenOriginal}',{descImagen0},{descImagen1})"><img src="{imagen}"   title="Tama&ntilde;o Original: {descImagen0} x {descImagen1} Tipo: {tipoImagen}" alt="{nombreImagen}"/></a>

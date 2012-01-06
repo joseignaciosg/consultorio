@@ -1,0 +1,92 @@
+body {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding:0;
+    font-family:Georgia, Times, serif;
+    font-size:0.9em;
+    color: black;
+}
+
+table {
+    width:94%;
+}
+
+table.datatable {
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+    border-width: 1px 1px 1px 1px;
+    border-spacing: 1px;
+    border-style: solid solid solid solid;
+    border-color: black black black black;
+    border-collapse: collapse;
+    background-color: white;
+}
+table.datatable th {
+    font-size:1.2em;
+    font-weight:800;
+    font-style:italic;
+    color:black;
+    border-width: 1px 1px 1px 1px;
+    padding: 2px 8px 2px 8px;
+    border-style: solid solid solid solid;
+    border-color: black black black black;
+    background-color: white;
+    -moz-border-radius: 0px 0px 0px 0px;
+}
+table.datatable td {
+    border-width: 1px 1px 1px 1px;
+    padding: 2px 8px 2px 8px;
+    border-style: solid solid solid solid;
+    border-color: black black black black;
+    background-color: white;
+    -moz-border-radius: 0px 0px 0px 0px;
+}
+h1 {
+  font-size:1.8em;
+  font-weight:800;
+  color:black;
+  text-align:center;
+}
+h2 {
+  font-size:1.4em;
+  font-weight:800;
+  font-style:italic;
+  color:black;
+}
+p {
+    margin: 0.1em;
+    color:black;
+}
+.header1 {
+  font-size:1.3em;
+  font-weight:800;
+  color:black;
+}
+.header2 {
+  font-size:1em;
+  color:black;
+}
+p.legend {
+  font-size:10px;
+  color:black;
+  text-align: center;
+}
+
+.small {
+  font-size:0.6em;
+}
+
+div.scroll {
+    overflow:scroll;
+}
+
+#printer {
+    position: fixed;
+    bottom: 0px;
+    height: 30px;
+    width: 90%;
+    text-align: center;
+    background: white;
+    border-top: solid 1px black;
+}

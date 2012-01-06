@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="es" />
+<meta name="LANGUAGE" content="es" />
+<meta name="DISTRIBUTION" content="Global" />
+
+<style type="text/css">
+
+.gallerycontainer{
+position: relative;
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+
+.thumbnail img{
+border: 1px solid white;
+margin: 0 5px 5px 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+}
+
+.thumbnail:hover img{
+border: 1px solid blue;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: lightyellow;
+padding: 5px;
+left: -1000px;
+border: 1px dashed gray;
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image*/
+visibility: visible;
+top: 100px	;
+left: 0px; /*position where enlarged image should offset horizontally */
+z-index: 50;
+}
+</style>
+
+
+<title> Quiste Mesentérico Imágenes</title>
+</head>
+<body>
+
+<div class="gallerycontainer">
+
+<a class="thumbnail" href="#thumb"><img src="images/quistemesenterico/qm1.png"  width="100px" height="66px" border="0" /><span><img src="images/quistemesenterico/qm1.png" alt="md1" width="500" height="370"/><br /></span></a>
+<a class="thumbnail" href="#thumb"><img src="images/quistemesenterico/qm2.png"  width="100px" height="66px" border="0" /><span><img src="images/quistemesenterico/qm2.png" alt="md1" width="500" height="370"/><br /></span></a>
+<a class="thumbnail" href="#thumb"><img src="images/quistemesenterico/qm3.png"  width="100px" height="66px" border="0" /><span><img src="images/quistemesenterico/qm3.png" alt="md1" width="500" height="370"/><br /></span></a>
+<a class="thumbnail" href="#thumb"><img src="images/quistemesenterico/qm4.png"  width="100px" height="66px" border="0" /><span><img src="images/quistemesenterico/qm4.png" alt="md1" width="500" height="370"/><br /></span></a>
+<a class="thumbnail" href="#thumb"><img src="images/quistemesenterico/qm5.png"  width="100px" height="66px" border="0" /><span><img src="images/quistemesenterico/qm5.png" alt="md1" width="500" height="370"/><br /></span></a>
+<a class="thumbnail" href="#thumb"><img src="images/quistemesenterico/qm6.png"  width="100px" height="66px" border="0" /><span><img src="images/quistemesenterico/qm6.png" alt="md1" width="500" height="370"/><br /></span></a>
+<a class="thumbnail" href="#thumb"><img src="images/quistemesenterico/qm7.png"  width="100px" height="66px" border="0" /><span><img src="images/quistemesenterico/qm7.png" alt="md1" width="500" height="370"/><br /></span></a>
+<a class="thumbnail" href="#thumb"><img src="images/quistemesenterico/qm8.png"  width="100px" height="66px" border="0" /><span><img src="images/quistemesenterico/qm8.png" alt="md1" width="500" height="370"/><br /></span></a>
+<a class="thumbnail" href="#thumb"><img src="images/quistemesenterico/qm9.png"  width="100px" height="66px" border="0" /><span><img src="images/quistemesenterico/qm9.png" alt="md1" width="500" height="370"/><br /</span></a>
+<a class="thumbnail" href="#thumb"><img src="images/quistemesenterico/qm10.png"  width="100px" height="66px" border="0" /><span><img src="images/quistemesenterico/qm10.png" alt="md1" width="500" height="370"/><br /></span></a>
+<a class="thumbnail" href="#thumb"><img src="images/quistemesenterico/qm11.png"  width="100px" height="66px" border="0" /><span><img src="images/quistemesenterico/qm11.png" alt="md1" width="500" height="370"/><br /></span></a>
+<a class="thumbnail" href="#thumb"><img src="images/quistemesenterico/qm12.png"  width="100px" height="66px" border="0" /><span><img src="images/quistemesenterico/qm12.png" alt="md1" width="500" height="370"/><br /></span></a>
+<a class="thumbnail" href="#thumb"><img src="images/quistemesenterico/qm13.png"  width="100px" height="66px" border="0" /><span><img src="images/quistemesenterico/qm13.png" alt="md1" width="500" height="370"/><br /></span></a>
+<a class="thumbnail" href="#thumb"><img src="images/quistemesenterico/qm14.png"  width="100px" height="66px" border="0" /><span><img src="images/quistemesenterico/qm14png" alt="md1" width="500" height="370"/><br /></span></a>
+<a class="thumbnail" href="#thumb"><img src="images/quistemesenterico/qm15.png"  width="100px" height="66px" border="0" /><span><img src="images/quistemesenterico/qm15.png" alt="md1" width="500" height="370"/><br /></span></a>
+<a class="thumbnail" href="#thumb"><img src="images/quistemesenterico/qm16.png"  width="100px" height="66px" border="0" /><span><img src="images/quistemesenterico/qm16.png" alt="md1" width="500" height="370"/><br /></span></a>
+<a class="thumbnail" href="#thumb"><img src="images/quistemesenterico/qm17.png"  width="100px" height="66px" border="0" /><span><img src="images/quistemesenterico/qm17.png" alt="md1" width="500" height="370"/><br /></span></a>
+
+
+
+
+<br />
+</div>
+
+</body>
+</html>

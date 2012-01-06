@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="es" />
+<meta name="LANGUAGE" content="es" />
+<meta name="DISTRIBUTION" content="Global" />
+<title> Tridimensional </title>
+<link rel="stylesheet" type="text/css" href="docstyle2.css" />
+</head>
+<body>
+<h3> Imágenes tridimensionales </h3>
+<hr />
+
+<img src="3d1.JPG" width="400" height="300" alt="bebe1" >
+<hr />
+<img src="3d2.JPG" width="400" height="300" alt="bebe2" >
+<hr />
+<img src="3d3.JPG" width="400" height="300" alt="bebe3" >
+<hr />
+<img src="3d4.JPG" width="400" height="300" alt="bebe4" >
+<hr />
+<img src="3d5.JPG" width="400" height="300" alt="bebe5" >
+<hr />
+<img src="3d6.JPG" width="400" height="300" alt="bebe6" >
+<hr />
+<img src="3d7.JPG" width="400" height="300" alt="bebe7" >
+<hr />
+<img src="3d8.JPG" width="400" height="300" alt="bebe8" >
+<hr />
+<img src="3d9.JPG" width="400" height="300" alt="bebe9" >
+
+</body>
+</html>

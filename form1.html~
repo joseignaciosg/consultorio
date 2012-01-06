@@ -1,0 +1,18 @@
+<html>
+<body>
+
+<h2> Ingrese su información en nuestra base de datos </h2>
+<hr />
+
+<form action="darinfoDB.php" method="post">
+Nombre: <input type="text" name="nombre" /> <br />
+Apellido: <input type="text" name="apellido" /> <br />
+Direccion: <input type="text" name="direccion" /> <br />
+Estudio: <input type="text" name="estudio" /> <br />
+DNI: <input type="text" name="dni" /> <br />
+
+<input type="submit" />
+</form>
+
+</body>
+</html>

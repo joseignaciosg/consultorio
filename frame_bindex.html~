@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="es" />
+<meta name="LANGUAGE" content="es" />
+<meta name="DISTRIBUTION" content="Global" />
+<link rel="stylesheet" type="text/css" href="docstyle2.css" />
+</head>
+
+<body>
+
+<table width="100%" height="20%">
+<tr>
+<td  align="left">
+	<p style="font-size:42px"> Dr. José Antonio Galindo </p>
+	<hr/>
+	<p style="font-size:20px"> médico especialista en diagnóstico por imágenes </p>
+</td>
+<td >
+	<img src="dadi.JPG" width="140" height="140" alt="doctor galindo" />
+</td>
+</tr>
+</table>
+
+<br /> 
+<p>
+Egresado de la Universidad Nacional de la Plata en el año 68. Título de obstetricia otorgado por el doctor Argentino 
+Quaglia en el Hospital Regional de Mar del Plata en el ano 1975. Ecografista dedicado al diagnóstico ultrasonográfico
+ininterrumpidamente desde el año 80. Presidente de la Sociedad Marplatense de Ecografi­a del año 1980, donde se realizó
+el primer curso anual de ecografí­a general del país. Especialista en diagnóstico por imágenes desde el año 89.
+Especializado en obstetricia. Desde el ano 88 trabajando en la ciudad de Ushuaia. 
+</p>	
+<br />
+
+<table width="100%" height="100%">
+<tr>
+<td align="left" >
+<a href="ecosdelmes.php" target="showframe">
+<img src="ecomesport.JPG" width="250" height="220" alt="ecos del mes" />
+</a>
+</td>
+<td>
+<a href="sorteoinfo.html" target="showframe">
+<img src="sorteoImg.JPG" width="250" height="220" alt="sorteo" />
+</a>
+</td>
+</tr>
+</table>
+
+
+
+</body>
+
+</html>

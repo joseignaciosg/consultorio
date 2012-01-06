@@ -1,0 +1,111 @@
+<html>
+<head>
+
+<!-- Contador de visitas -->
+
+
+
+
+<script type="text/javascript">
+function startTime() //script for the clock
+{
+var today=new Date();
+var h=today.getHours();
+var m=today.getMinutes();
+var s=today.getSeconds();
+// add a zero in front of numbers<10
+m=checkTime(m);
+s=checkTime(s);
+document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+t=setTimeout('startTime()',500);
+}
+
+function checkTime(i)
+{
+if (i<10)
+  {
+  i="0" + i;
+  }
+return i;
+}
+</script>
+
+<script type="text/javascript">
+function getCookie(c_name) //script for the salutation message
+{
+if (document.cookie.length>0)
+  {
+  c_start=document.cookie.indexOf(c_name + "=");
+  if (c_start!=-1)
+    {
+    c_start=c_start + c_name.length+1;
+    c_end=document.cookie.indexOf(";",c_start);
+    if (c_end==-1) c_end=document.cookie.length;
+    return unescape(document.cookie.substring(c_start,c_end));
+    }
+  }
+return "";
+}
+
+function setCookie(c_name,value,expiredays)
+{
+var exdate=new Date();
+exdate.setDate(exdate.getDate()+expiredays);
+document.cookie=c_name+ "=" +escape(value)+
+((expiredays==null) ? "" : ";expires="+exdate.toUTCString());
+}
+
+function checkCookie()
+{
+username=getCookie('username');
+if (username!=null && username!="")
+  {
+  alert('Welcome again '+username+'!');
+  }
+else
+  {
+  username=prompt('Please enter your name:',"");
+  if (username!=null && username!="")
+    {
+    setCookie('username',username,365);
+    }
+  }
+}
+</script>
+
+</head>
+
+<body  onload="checkCookie(), startTime()" >
+<div id="txt"></div>
+
+<hr/> <br />
+
+<a href="http://www.fetalmedicine.com" target="_blank">
+<img border="0" alt="FMF" src="fmf.gif" id="b1"/> </a>
+
+<hr />
+<a href="http://www.ama-med.org.ar/" target="_blank">
+<img border="0" alt="AMA" src="ama.jpg" id="b1"/> </a>
+
+<hr />
+<a href="http://www.saeu.org.ar/" target="_blank">
+<img border="0" alt="SAEU" src="saeu.jpg" id="b1"/> </a>
+
+<hr />
+<a href="http://www.chu-rouen.fr/homeng.html" target="_blank">
+<img border="0" alt="ROUEN" src="rouen.gif" id="b1"/> </a>
+
+<hr />
+<body  onload="checkCookie(), startTime()" >
+<div id="txt"></div>
+
+<!-- Codigo contadorvisitas.com ver. 4.3 -->
+<script language="javascript" src="http://aux01.contadorgratis.com/hitv4.php?digit=a&page=d6399099692b5a77ba25b943a2a31c58"></script>
+<br><font size=1>Contador de visitas</font>
+<!-- FIN Codigo contadorvisitas.com -->
+                    
+
+</html>
+</body>
+</html>
+

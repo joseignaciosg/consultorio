@@ -1,0 +1,56 @@
+<html>
+<head>
+<script type="text/javascript"> <!-- script for form verification -->
+function validate_required(field,alerttxt) 
+{
+with (field)
+  {
+  if (value==null||value=="")
+    {
+    alert(alerttxt);return false;
+    }
+  else
+    {
+    return true;
+    }
+  }
+}
+
+function validate_form(thisform)
+{
+	with (thisform)
+  	{
+  		if (validate_required(nombre,"Tiene que llenar el contenido del nombre!")==false){
+ 		 	email.focus();return false;
+	   }
+	   if (validate_required(apellido," Falta su apellido! ") == false){
+	   	email.focus();return false;
+ 	   }
+  	   if (validate_required(direccion, "Falta su direccion! ") == false){
+ 			email.focus();return false;
+  		}	
+  		if (validate_required(DNI, " Falta su DNI !! ") == false){ 
+  			email.focus();return false;
+  		}
+  	}
+}
+</script>
+
+</head>
+<body>
+
+<h2> Ingrese su informacion en nuestra base de datos </h2>
+<hr />
+
+<form action="darinfoDB.php" onsubmit="return validate_form(this)" method="post" >
+Nombre: <input type="text" name="nombre" /> <br />
+Apellido: <input type="text" name="apellido" /> <br />
+Direccion: <input type="text" name="direccion" /> <br />
+Estudio: <input type="text" name="estudio" /> <br />
+DNI: <input type="text" name="dni" /> <br />
+
+<input type="submit" />
+</form>
+
+</body>
+</html>
