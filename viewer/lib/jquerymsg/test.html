@@ -1,0 +1,31 @@
+<html>
+
+<head>
+
+<!-- JQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"
+	type="text/javascript"></script>
+	<script type="text/javascript" src="jquery.center.min.js"></script>
+<script type="text/javascript" src="jquery.msg.js"></script>
+<link media="screen" href="jquery.msg.css" rel="stylesheet" type="text/css">
+
+<script>
+	$(document).ready(function() {
+		$("#test").click(function() {
+			$.msg({
+				klass : 'white-on-black'
+			});
+		});
+	});
+</script>
+</head>
+<body>
+
+	<div>
+		<a href="#" id="test"> click me</a>
+
+	</div>
+</body>
+
+
+</html>

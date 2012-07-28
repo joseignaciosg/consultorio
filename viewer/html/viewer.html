@@ -1,0 +1,163 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<!-- Reset all browser and user styles -->
+<link rel="stylesheet" type="text/css"
+	href="http://yui.yahooapis.com/2.5.0/build/reset/reset-min.css">
+<link rel="stylesheet" type="text/css" href="../css/viewer.css">
+<link media="screen" href="../lib/jquerymsg/jquery.msg.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+ <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+    
+      // Load the Visualization API and the piechart package.
+      google.load('visualization', '1.0', {'packages':['corechart']});
+      
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.setOnLoadCallback(drawChart);
+      
+      // Callback that creates and populates a data table, 
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+      // Create the data table.
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'Topping');
+      data.addColumn('number', 'Slices');
+      data.addRows([
+        ['Mushrooms', 3],
+        ['Onions', 1],
+        ['Olives', 1], 
+        ['Zucchini', 1],
+        ['Pepperoni', 2]
+      ]);
+
+      // Set chart options
+      var options = {'title':'How Much Pizza I Ate Last Night',
+                     'width':400,
+                     'height':300};
+
+      // Instantiate and draw our chart, passing in some options.
+      var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    }
+    </script>
+<!-- JQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"
+	type="text/javascript"></script>
+	<script type="text/javascript" src="../lib/jquerymsg/jquery.center.min.js"></script>
+<script type="text/javascript" src="../lib/jquerymsg/jquery.msg.js"></script>
+	
+
+
+<!-- Controllers -->
+<script type="text/javascript" src="../js/controllers/showclicks_controllers.js"></script>
+<script type="text/javascript" src="../js/controllers/sidebar_controller.js"></script>
+<script type="text/javascript" src="../js/controllers/breadscrumbs_controller.js"></script>
+<script type="text/javascript" src="../js/controllers/entrance_viewer_controller.js"></script>
+<script type="text/javascript" src="../js/controllers/track_link_controller.js"></script>
+
+<!-- JS files -->
+<script type="text/javascript" src="../js/utils.js"></script>
+<script type="text/javascript" src="../js/intializer.js"></script>
+
+
+<!-- Javascript MVC inports -->
+<script type="text/javascript"
+	src="../lib/jquerymx-1.0.custom/jquerymx-1.0.custom.js"></script>
+<script type="text/javascript"
+	src="../lib/jquerymx-1.0.custom/jquerymx-1.0.custom.min.js"></script>
+
+<script type="text/javascript" src="../js/ddaccordion.js">
+
+<script type="text/javascript">
+ddaccordion.init({
+	headerclass: "expandable", //Shared CSS class name of headers group that are expandable
+	contentclass: "categoryitems", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [], //index of content(s) open by default [index1, index2, etc]. [] denotes no content
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: true, //persist state of opened contents within browser session?
+	toggleclass: ["", "openheader"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["prefix", "", ""], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+</script>
+
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="header_inner">
+				<div id="logo">
+					<!--  <img  src="../resources/images/logo_CM.jpg" alt="" width="120"
+						height="60" />-->
+				</div>
+				<div id="company_name">Consultorio del Dr. Galindo</div>
+				<div id="log_out_div"><a href="#" id="log_out"><button  >Salir</button></a></div>
+			</div>
+		</div>
+
+		<div id="main">
+			<div id="main_left">
+				<!-- change company
+				<div id="language_menu">
+					<select name="Languages">
+					</select>
+				</div> -->
+				<div id="sidebar" class="arrowlistmenu">
+					<!--  <h3 class="menuheader expandable">info pacientes</h3>
+					<ul class="categoryitems">
+					<li><a href="faq.html" > preguntas frecuentes </a></li>
+					<li><a href="infopacientes.html" > listado de informacion </a></li>
+					</ul>-->
+						<ul>
+						<li><a href="#" id="gen_track_link" class="menuheader expandable" >Track Link</a></li>
+						<li><a href="#" id="show" class="menuheader expandable">Ver aperturas</a></li>
+						<li><a href="#" id="showclicks" class="menuheader expandable">Ver clicks</a></li>
+						<li><a href="../php/downloadClicks.php?company=1" id="download" class="menuheader expandable">Descargar </a></li>
+						<li><a href="../php/genNewsPie.php?company=1"  target="_blank" id="by_news" class="menuheader expandable">Por newsletter </a></li>
+						<li><a href="../php/genCampPie.php?company=1"  target="_blank" id="by_camp" class="menuheader expandable">Por campa&ntilde;a </a></li>
+					<!--  	<li><a href="../php/genGeoChart.php?company=1"  target="_blank" id="by_country" >Por pa&iacute;s </a></li>-->
+					</ul>
+				</div>
+			</div>
+			<div id="main_middle">
+				<div id="breadscrumbs"></div>
+				<div id="click_viewer"></div>
+
+			</div>
+			<div id="main_right"></div>
+		</div>
+
+		<div id="footer"></div>
+
+		
+		<form>
+			<input type="hidden" id="jump" value="25" />
+			<input type="hidden" id="last_register_type1" value="0" />
+			<input type="hidden" id="last_register_type2" value="0" />
+			
+		</form>
+
+
+	</div>
+</body>
+</html>
